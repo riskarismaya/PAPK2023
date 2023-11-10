@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Perulangan Foreach Javascript</title>
+</head>
+
+<body>
+  <script>
+    var bahasa = ["Javascript", "HTML", "CSS", "Typescript"];
+
+    for (i in bahasa) {
+      document.write(i + ". " + bahasa[i] + "<br/>");
+    }
+
+    var days = ["Senin", "Selasa", "Rabu", "Kamis", "Jum'at", "Sabtu", "Minggu"];
+
+    days.forEach(function (day) {
+      document.write("<p>" + day + "</p>");
+    });
+  </script>
+</body>
+
+</html>

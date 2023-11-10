@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<head>
+  <title>A2.2100116_Riska Rismaya</title>
+  <link type="text/css" rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1 style="text-align: center;">Aplikasi Rental Mobil Sederhana</h1>
+  <table>
+    <tr>
+      <td>
+        <form autocomplete="off" onsubmit="FormSimpan()">
+          <div>
+            <label for="merek">Merek Mobil</label>
+            <input type="text" name="merek" id="merek">
+          </div>
+          <div>
+            <label for="model">Model Mobil</label>
+            <input type="text" name="model" id="model">
+          </div>
+          <div>
+            <label for="tahun">Tahun Produksi</label>
+            <input type="number" name="tahun" id="tahun">
+          </div>
+          <div>
+            <label for="harga">Harga Sewa (perhari)</label>
+            <input type="number" name="harga" id="harga">
+          </div>
+
+          <div class="form_action--button">
+            <input type="submit" value="Simpan">
+            <input type="reset" value="Reset">
+          </div>
+        </form>
+
+      <td>
+        <table class="list" id="listMobil">
+          <thead>
+            <tr>
+              <th>Merek Mobil</th>
+              <th>Model Mobil</th>
+              <th>Tahun Produksi</th>
+              <th>Harga Sewa (perhari)</th>
+              <th>Aksi</th>
+            </tr>
+          </thead>
+          <tbody>
+
+          </tbody>
+        </table>
+      </td>
+      </td>
+    </tr>
+  </table>
+  <script type="text/javascript" src="fungsi.js"></script>
+</body>
+
+</html>

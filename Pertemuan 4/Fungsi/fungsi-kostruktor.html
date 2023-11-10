@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Membuat Fungsi dengan Kostruktor</title>
+</head>
+
+<body>
+  <h2>Fungsi Constructor</h2>
+  <script>
+    var fungsikostruktor = new Function("x", "y", "return x - y;");
+
+    // Contoh pemanggilan
+    var hasilkostruktor = fungsikostruktor(15, 3);
+    document.write("Hasil Fungsi Kostruktor : ", hasilkostruktor);
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Percabangan Bersarang (Nested) A22100116</title>
+</head>
+
+<body>
+  <script>
+    var username = prompt("username");
+    var password = prompt("password");
+
+    if (username == "riskarismaya") {
+      if (password == "riska") {
+        document.write(`<h2> Selamat datang bos!</h2>`);
+      } else {
+        document.write(`<p> Password yang anda masukan salah, silahkan coba lagi!</p>`);
+      }
+    } else {
+      document.write(`<p> Akun anda tidak terdaftar, silahkan melakukan registrasi</p>`);
+    }
+  </script>
+</body>
+
+</html>
